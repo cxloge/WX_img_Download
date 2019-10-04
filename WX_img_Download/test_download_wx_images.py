@@ -3,6 +3,7 @@
 # from urllib.parse import urlsplit,urlparse
 import re
 import time
+import datetime
 import os
 from urllib.parse import urlparse
 
@@ -13,23 +14,6 @@ import pandas as pd
 
 # 替换markdown img 文本
 # 在img添加文件关键字
-
-# wx_img = r'https://mmbiz.qpic.cn/mmbiz_gif/KmXPKA19gW8ytVicE1O0s0Mgah7D455yDFcQVoczkWr1Y1CyWT9hVMbiaAaw2gCPpoT1oK1so42cenyRwfPjk7xw/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1'
-
-# urlsplit()
-# from urllib.parse import urlsplit
-# 与urlparse类似，但urlsplict把urlstirng分割成5个部分，其中少了paramters
-
-# wx_img_new = urlsplit(wx_img)
-# wx_img_new = urlparse(wx_img)
-
-# ParseResult(scheme='https',
-# netloc='mmbiz.qpic.cn',
-# path='/mmbiz_gif/KmXPKA19gW8ytVicE1O0s0Mgah7D455yDFcQVoczkWr1Y1CyWT9hVMbiaAaw2gCPpoT1oK1so42cenyRwfPjk7xw/640',
-# params='',
-# query='wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1',
-# fragment='')
-
 # 取出文件类型
 
 def get_wx_img_type(wx_img):
@@ -40,9 +24,11 @@ def get_wx_img_type(wx_img):
 # md_name = r'向 Excel 说再见，神级编辑器统一表格与 Python.md'
 
 def get_url_md(md_name):
-    img_names = [ ]
-    img_urls = [ ]
-    img_types = [ ]
+    img_names = []
+    img_urls = []
+    img_types = []
+    local_img_mds =[]
+    get_md_img_urls = []
     with open(md_name) as f:
         count = 1
         for line in f:
@@ -50,10 +36,13 @@ def get_url_md(md_name):
             # print(count)
             get_md_img_url = re.match(r'(^!.*)',line)
             if get_md_img_url != None:
-                # 获取当前时间戳  time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
-                # time.strftime('%Y-%m-%d', time.localtime(time.time()))
-                time_strftime = time.strftime('%Y-%m-%d',time.localtime(time.time()))
-                img_name = line.split("[")[1].split("]")[0]+ '_' + time_strftime +'_' + str(count)
+                get_md_img_urls.append(line)
+                # 获取当前时间戳
+                # time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
+                # Out[5]: '20191004190856'
+
+                # img_name = line.split("[")[1].split("]")[0]+ '_' + time_strftime +'_' + str(count)
+                img_name = '%s_%s'%(line.split("[")[1].split("]")[0],datetime.datetime.now().strftime('%Y%m%d%H%M%S.%f'))
                 img_names.append(img_name)
                 # print(img_names)
                 img_url = line.split("(")[1].split(')')[0]
@@ -62,9 +51,12 @@ def get_url_md(md_name):
                 img_types.append(img_type)
                 # print(line)
                 # print(img_url)
+                # local_img_md = '![' + img_name + '](' + local_img + ')'
+                local_img_md = '![%s](./images/%s)'%(img_name,img_name+'.'+img_type)
+                local_img_mds.append(local_img_md)
             # url = re.match(r'(^!.*)',line)
             # print(url)
-        img_all = np.array([img_names,img_urls,img_types])
+        img_all = np.array([img_names,img_urls,img_types,local_img_mds,get_md_img_urls])
         data_df = pd.DataFrame(img_all)
         # create and writer pd.DataFrame to excel
         # 数组装置transpose()
@@ -72,8 +64,8 @@ def get_url_md(md_name):
         writer = pd.ExcelWriter('Save_Excel.xlsx')
         data_df.to_excel(writer, 'page_1')  #
         writer.save()
-        print("img_all",img_all)
-    return img_names,img_urls,img_types
+    #     print("img_all",img_all)
+    # return img_names,img_urls,img_types
 
 
 
@@ -149,7 +141,7 @@ def download_img(img_name,img_url,img_type):
 if __name__ == '__main__':
     # wx_img_type = get_wx_img_type(wx_img)
     # print (wx_img_type)
-    keyword = 'Python_Excel_gridstudio_'
+    # keyword = 'Python_Excel_gridstudio_'
 
     md_name = r'向 Excel 说再见，神级编辑器统一表格与 Python.md'
     img_arrys = get_url_md(md_name)
@@ -164,6 +156,14 @@ if __name__ == '__main__':
     #         img_type = img_arrys[2][j]
     #         print(img_name,img_url,img_type)
     #         download_img(img_name,img_url,img_type)
-    re_markdown_img(md_name)
+    # re_markdown_img(md_name)
     # line_new_img()
     # re_markdown_img()
+    sheet = pd.read_excel('Save_Excel.xlsx')
+
+    # 取出img
+    for i in range(0,sheet.shape[0]):
+        img_name = sheet[0][i]
+        img_url = sheet[1][i]
+        img_type = sheet[2][i]
+        download_img(img_name, img_url, img_type)

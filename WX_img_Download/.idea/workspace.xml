@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a54ce72a-93fd-4659-9e11-0fc5c6150fe4" name="Default Changelist" comment="" />
+    <list default="true" id="a54ce72a-93fd-4659-9e11-0fc5c6150fe4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Directory_txt2csv/Directory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Directory_txt2csv/Directory_txt2csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save_Excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Save_Excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new.md" beforeDir="false" afterPath="$PROJECT_DIR$/new.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_download_wx_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_download_wx_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/向 Excel 说再见，神级编辑器统一表格与 Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/向 Excel 说再见，神级编辑器统一表格与 Python.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +23,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WX_img_Download$saveExcel.coverage" NAME="saveExcel Coverage Results" MODIFIED="1566618443373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WX_img_Download$test_download_wx_images.coverage" NAME="test_download_wx_images Coverage Results" MODIFIED="1566620677704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WX_img_Download$saveExcel.coverage" NAME="saveExcel Coverage Results" MODIFIED="1570190467101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WX_img_Download$test_download_wx_images.coverage" NAME="test_download_wx_images Coverage Results" MODIFIED="1570192177566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2040692770">
@@ -64,21 +78,31 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="25" />
+          <entry key="download_wx_images" value="65" />
+          <entry key="py" value="231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="25" />
+          <entry key="Python" value="321" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="csv" value="1" />
+          <entry key="gif" value="6" />
+          <entry key="jpeg" value="6" />
+          <entry key="md" value="4" />
+          <entry key="png" value="2" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="CSV" value="1" />
+          <entry key="Image" value="14" />
+          <entry key="Markdown" value="4" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -86,13 +110,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/download_wx_images.py">
+        <entry file="file://$PROJECT_DIR$/test_download_wx_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="226">
+              <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
               <folding>
-                <element signature="e#25#40#0" expanded="true" />
+                <element signature="e#70#79#0" expanded="true" />
+                <element signature="e#2678#3444#0" />
+                <element signature="e#3495#4142#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/向 Excel 说再见，神级编辑器统一表格与 Python.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="209">
+                <caret line="44" column="5" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,10 +160,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/new.md" />
-        <option value="$PROJECT_DIR$/saveExcel.py" />
-        <option value="$PROJECT_DIR$/test_download_wx_images.py" />
         <option value="$PROJECT_DIR$/download_wx_images.py" />
+        <option value="$PROJECT_DIR$/saveExcel.py" />
+        <option value="$PROJECT_DIR$/new.md" />
+        <option value="$PROJECT_DIR$/test_download_wx_images.py" />
       </list>
     </option>
   </component>
@@ -206,6 +254,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="download_wx_images" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WX_img_Download" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/download_wx_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="saveExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WX_img_Download" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,11 +320,13 @@
     <list>
       <item itemvalue="Python.test_download_wx_images" />
       <item itemvalue="Python.saveExcel" />
+      <item itemvalue="Python.download_wx_images" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_download_wx_images" />
         <item itemvalue="Python.saveExcel" />
+        <item itemvalue="Python.download_wx_images" />
       </list>
     </recent_temporary>
   </component>
@@ -276,23 +345,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32474965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.42582417" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" x="370" y="293" width="699" height="280" id="Event Log" order="10" show_stripe_button="false" sideWeight="0.5007153" side_tool="true" type="WINDOWED" weight="0.3846154" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.32967034" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" weight="0.32967034" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.42582417" />
       <window_info anchor="right" x="0" y="0" width="310" height="620" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -316,14 +386,6 @@
     <entry file="file://$PROJECT_DIR$/images/img_2019-08-23_145.png" />
     <entry file="file://$PROJECT_DIR$/images/img_2019-08-23_30.gif" />
     <entry file="file://$PROJECT_DIR$/images/img_2019-08-23_14.png" />
-    <entry file="file://$PROJECT_DIR$/new.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-8" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pandas/io/excel/_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -353,12 +415,70 @@
     <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_download_wx_images.py">
+    <entry file="file://$PROJECT_DIR$/download_wx_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        <state relative-caret-position="-57">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
-            <element signature="e#70#79#0" expanded="true" />
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Grid_studio_2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Grid_studio_3.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Grid_studio_4.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Grid_studio_8.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Grid_studio_6.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Grid_studio_1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_images.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.068992.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.069081.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.068701.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.068905.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.068578.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.068498.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.068417.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img_20191004200439.068261.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saveExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="31" selection-start-line="31" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#89#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -366,29 +486,29 @@
     <entry file="file://$PROJECT_DIR$/向 Excel 说再见，神级编辑器统一表格与 Python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="365">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <first_editor relative-caret-position="209">
+            <caret line="44" column="5" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saveExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#89#107#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/new.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/download_wx_images.py">
+    <entry file="file://$PROJECT_DIR$/test_download_wx_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="226">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
           <folding>
-            <element signature="e#25#40#0" expanded="true" />
+            <element signature="e#70#79#0" expanded="true" />
+            <element signature="e#2678#3444#0" />
+            <element signature="e#3495#4142#0" />
           </folding>
         </state>
       </provider>
